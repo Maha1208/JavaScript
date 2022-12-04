@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<img onmouseover="largeImg(this)" onmouseout="normalImg(this)" border="2px" src="tree.jpg" alt="tree" width="32" height="32">
+
+<script>
+function largeImg(x) {
+  x.style.height = "364px";
+  x.style.width = "364px";
+}
+
+function normalImg(x) {
+  x.style.height = "100px";
+  x.style.width = "100px";
+}
+</script>
+</body>
+</html>

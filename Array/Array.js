@@ -5,7 +5,7 @@ console.log(products);
 //finding length of the array
 console.log(products.length);
 
-//modifying array
+///modifying array
 products[2]='orange';
 products[8]='Apple';
 console.log(products);

@@ -1,4 +1,4 @@
-const n1=maha; //scoped globally
+const n1=maha; ///scoped globally
 var n3=lakshmi;
 
 function myfunction()
